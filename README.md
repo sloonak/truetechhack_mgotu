@@ -7,9 +7,10 @@
 # Инструкция по развёртке
 
 Установка postgresql + python3.11 + requirements.txt
+
 git clone https://github.com/sloonak/truetechhack_mgotu.git 
 
-cd <repo>
+cd repo
 
 pip install virtualenv (если у вас еще не установлен)
 
