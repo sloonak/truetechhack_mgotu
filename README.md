@@ -6,6 +6,19 @@
  
 # Инструкция по развёртке
 
+Установка postgresql + python3.11 + requirements.txt
+git clone https://github.com/sloonak/truetechhack_mgotu.git 
+
+cd <repo>
+
+pip install virtualenv (если у вас еще не установлен)
+
+virtualenv venv to create your new environment
+
+source venv/bin/activate для входа в виртуальную среду
+
+pip install -r requirements.txt  для установки требований в текущей среде
+
 # Функционал
 
 1. Алгоритм, который анализирует видеоряд на наличие отрывков, способных вызвать эпилептический припадок.
